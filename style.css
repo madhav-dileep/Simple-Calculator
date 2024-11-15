@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+.container{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+   
+}
+.content-body{
+    width: 400px;
+    height: 520px;
+    border: solid 1.5px;
+    padding: 2%;
+    text-align: center;
+    border-radius: 10px;
+    padding-right: 25px;
+    background-color: rgba(250, 245, 88, 0.864);
+    box-shadow: 0px 2px 30px rgba(57, 57, 57, 0.93);
+}
+input{
+    width: 100%;
+    height: 5rem;
+    text-align: right;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 2%;
+    border: 1px solid;
+}
+.btns{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 20px 0px;
+    
+}
+.button{
+    padding: 20px;
+    width: 70px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.operator{
+    background-color: rgba(154, 68, 154, 0.805);
+    color: white;
+    font-weight: 600;
+}
+
+#backspace{
+    grid-column: span 4;
+    width: 100%;
+}
+#backspace button{
+    width: inherit;
+}
+
+
